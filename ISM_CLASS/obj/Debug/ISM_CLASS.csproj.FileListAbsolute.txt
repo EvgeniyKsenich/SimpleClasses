@@ -1,0 +1,6 @@
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\bin\Debug\ISM_CLASS.exe.config
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\bin\Debug\ISM_CLASS.exe
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\bin\Debug\ISM_CLASS.pdb
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\obj\Debug\ISM_CLASS.csprojResolveAssemblyReference.cache
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\obj\Debug\ISM_CLASS.exe
+C:\Users\zzzzz\OneDrive\Документы\Visual Studio 2015\Projects\ISM_CLASS\ISM_CLASS\obj\Debug\ISM_CLASS.pdb
