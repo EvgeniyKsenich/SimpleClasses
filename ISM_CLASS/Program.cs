@@ -46,6 +46,13 @@ namespace ISM_CLASS
             //    Console.WriteLine();
             //}
 
+            Student a = new Student();
+            a.CURS = "3";
+            a.SetAdres = "123 Main st.";
+            string adre = a.GetAdr;
+            Console.WriteLine(adre);
+            a.Reserv_Name = "Jon";
+            Console.WriteLine(a.Reserv_Name);
 
         }
         static void DemoFone()

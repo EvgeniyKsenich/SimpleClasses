@@ -16,6 +16,29 @@ namespace ISM_CLASS
         protected string Fone;
         protected string Facult;
         protected string Curs;
+        //.........(2.0)..........//
+        public string CURS
+        {
+            get { return Curs; }
+            set {
+                if (int.Parse(value) > 0 && int.Parse(value) <= 5)Curs = value;
+                }
+        }
+
+        public string Reserv_Name { get; set; }
+
+
+        public string GetAdr
+        {
+            get { return Adress; }
+        }
+        public string SetAdres
+        {
+            set { Adress = value; }
+        } 
+
+
+       //........................//
         public Student()
         {
             Name = "None_Name";

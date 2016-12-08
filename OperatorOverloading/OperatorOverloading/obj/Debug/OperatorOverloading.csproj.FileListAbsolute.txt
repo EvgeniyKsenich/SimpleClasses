@@ -1,0 +1,6 @@
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\bin\Debug\OperatorOverloading.exe.config
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\bin\Debug\OperatorOverloading.exe
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\bin\Debug\OperatorOverloading.pdb
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\obj\Debug\OperatorOverloading.csprojResolveAssemblyReference.cache
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\obj\Debug\OperatorOverloading.exe
+c:\users\zzzzz\onedrive\документы\visual studio 2015\Projects\OperatorOverloading\OperatorOverloading\obj\Debug\OperatorOverloading.pdb
