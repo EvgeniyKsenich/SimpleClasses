@@ -137,5 +137,32 @@ namespace ISM_CLASS
         {
             return Curs;
         }
+
+
+
+
+        public virtual void Print()
+        {
+            Console.WriteLine("Name:" + Name);
+            Console.WriteLine("Surname:" + SurName);
+            Console.WriteLine("SecondName:" + SecondName);
+            Console.WriteLine("Birth date:" + BirthDate);
+            Console.WriteLine("Adres:" + Adress);
+            Console.WriteLine("Fone:" + Fone);
+            Console.WriteLine("Facultet:" + Facult);
+            Console.WriteLine("Curs:" + Curs);
+        }
+
+        public virtual void SetAllDefault()
+        {
+            Name = "None_Name";
+            SurName = "None";
+            SecondName = "None";
+            BirthDate = "None";
+            Adress = "None";
+            Fone = "None";
+            Facult = "None";
+            Curs = "None";
+        }
     }
 }

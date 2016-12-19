@@ -46,14 +46,64 @@ namespace ISM_CLASS
             //    Console.WriteLine();
             //}
 
-            Student a = new Student();
-            a.CURS = "3";
-            a.SetAdres = "123 Main st.";
-            string adre = a.GetAdr;
-            Console.WriteLine(adre);
-            a.Reserv_Name = "Jon";
-            Console.WriteLine(a.Reserv_Name);
+            //Student a = new Student();
+            //a.CURS = "3";
+            //a.SetAdres = "123 Main st.";
+            //string adre = a.GetAdr;
+            ////Console.WriteLine(adre);
+            //a.Reserv_Name = "Jon";
+            //Console.WriteLine(a.Reserv_Name);
 
+
+
+
+
+            //Worker wr = new Worker("Ivan", "Ivanov", "Ivanovich", "01.01.1998", "st. Chudnivska 193B", "0964000000", "FIKT","ZTU", 97);
+            //wr.Print();
+            //wr.SetAllDefault();
+            //Console.WriteLine();
+            //wr.Print();
+            //wr.Uneversity = "ZTU";
+            //wr.SetMidMark(91);
+            //Console.WriteLine();
+            //Console.WriteLine("Mid Mark = "+wr.GetMidMark()+"\n"+"University: "+wr.Uneversity);
+
+            //Healthy hl = new Healthy();
+            //hl.Print();
+            //hl.Adres = "main st.21";
+            //hl.Diagnosis = "hadeick";
+            //hl.SetDay(21);
+            //hl.Surname = "Petrovich";
+            //Console.WriteLine();
+            //hl.Print();
+            //hl.SetAllDefault();
+            //Console.WriteLine();
+            //hl.Print();
+
+            Illnes il = new Illnes("Ivanov","Ivan","Ivanovich","12 main st.",123, "hadeick",1990, "Andriy Ivanovich", 21);
+            il.Print();
+            Console.WriteLine();
+            il.Print();
+            Console.WriteLine();
+            il.Decrement_Visitors();
+            il.Print();
+            Console.WriteLine();
+            il.SetAllDefault();
+            il.Print();
+
+
+            //Roaming rm = new Roaming();
+            //rm.Print();
+            //rm.SetNewMaxRouming(200);
+            //rm.SetNewTarif(100);
+            //rm.Name = "Sasha";
+            //rm.AddInRouming(10);
+            //rm.AddInUsed(20);
+            //Console.WriteLine();
+            //rm.Print();
+            //rm.NewMonth();
+            //Console.WriteLine();
+            //rm.Print();
         }
         static void DemoFone()
         {

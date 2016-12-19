@@ -80,5 +80,27 @@ namespace ISM_CLASS
             set { name = value; }
             get { return name; }
         }
+
+
+        public virtual void Print()
+        {
+            Console.WriteLine("Surname:" + Surname);
+            Console.WriteLine("Name:" + Name);
+            Console.WriteLine("SecondName:" + Second_name);
+            Console.WriteLine("Adres:" + Adres);
+            Console.WriteLine("Cart Number:" + Curt_number);
+            Console.WriteLine("Diagnosis:" + Diagnosis);
+            Console.WriteLine("Birth year:" + Birth_year);
+        }
+        public virtual void SetAllDefault()
+        {
+            surname = "none";
+            name = "none";
+            second_name = "none";
+            adres = "none";
+            curt_number = 0;
+            diagnosis = "none";
+            birth_year = 1000;
+        }
     }
 }

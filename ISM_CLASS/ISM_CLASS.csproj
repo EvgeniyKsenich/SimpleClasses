@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Healthy.cs" />
+    <Compile Include="Illnes.cs" />
+    <Compile Include="Internet.cs" />
     <Compile Include="OperatorOverloading.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadFromFiles.cs" />
+    <Compile Include="Roaming.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

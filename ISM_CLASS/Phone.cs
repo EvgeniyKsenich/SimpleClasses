@@ -89,5 +89,24 @@ namespace ISM_CLASS
             set { name = value; }
             get { return name; }
         }
+
+
+
+        public virtual void NewMonth()
+        {
+            in_syti = 0;
+            out_syti = 0;
+        }
+        public virtual void Print()
+        {
+            Console.WriteLine("Surname:" + Surname);
+            Console.WriteLine("Name:" + Name);
+            Console.WriteLine("SecondName:" + Second_name);
+            Console.WriteLine("Adres:" + Adres);
+            Console.WriteLine("Fone:" + Fone_number);
+            Console.WriteLine("In syti call:" + In_syti);
+            Console.WriteLine("Out syti call:" + Out_syti);
+            Console.WriteLine("Operator:" + M_operator);
+        }
     }
 }
